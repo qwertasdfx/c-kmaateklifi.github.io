@@ -21,8 +21,8 @@
 }
 
 .square {
-  width: 30%;
-  height: 100px;
+  width: 50%;
+  height: 200px;
   background-image: linear-gradient(145deg, #5f2992, #9b36fa);
   border-radius: 30px;
   font-size: 14px;
