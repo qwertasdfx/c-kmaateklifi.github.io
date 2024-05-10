@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", function () {
         title.appendChild(span);
 
         // Her harf için rastgele karakterle değiştirme işlemi
-        setTimeout(function () {
-            for (let j = 0; j < 10; j++) {
-                setTimeout(function () {
-                    span.textContent = possibleChars.charAt(Math.floor(Math.random() * possibleChars.length));
-                }, (j * 50)); // Her karakter değişimi için 50ms gecikme ekler
-            }
-        }, i * 0.5 * 1000);
+        //setTimeout(function () {
+           // for (let j = 0; j < 10; j++) {
+                //setTimeout(function () {
+                 //   span.textContent = possibleChars.charAt(Math.floor(Math.random() * possibleChars.length));
+              //  }, (j * 50)); // Her karakter değişimi için 50ms gecikme ekler
+           // }
+       // }, i * 0.5 * 1000);
 
         // Gerçek harf eklenir
         setTimeout(function () {
