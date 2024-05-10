@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let i = 0; i < text.length; i++) {
         const span = document.createElement('span');
         span.textContent = text[i];
-        span.style.animationDelay = `${i * 0.5}s`; // Her harf için artan gecikme ekler
+        span.style.animationDelay = `${i * 0.1}s`; // Her harf için artan gecikme ekler
         title.appendChild(span);
 
         // Her harf için rastgele karakterle değiştirme işlemi
